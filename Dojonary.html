@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Profile page
+        </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Dojonary.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="Inicio">
+            <ul class="menu">
+                <h1 class="IniTit">Dojonary</h1>
+                <input type="text" placeholder="buscar" required>
+            </ul>
+            <button class="signOut" onclick="cambiarNombre(this)">Sign Out</button>
+        </div>
+
+        <div class="container">
+            <div class="izqColu">
+                <div class="cuad1">
+                    <div class="col">
+                        <div>
+                            <h1>Ninja <br>
+                                <p>noun <br>
+                                    Plural: Ninja <br><button class="likes" onclick="alertar('Ninja was Liked')">13 likes</button></p>
+                            </h1>
+                        </div>
+                        <div class="location">
+                            <h3>
+                                A pactitioner skilled in the<br>
+                               <a href="#">Japonese</a>art of <a href="#">ninjutsu</a>
+                            </h3>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="cuad2">
+                    <div class="col">
+                        <div>
+                            <h1>Ninja <br>
+                                <p>noun <br>
+                                    Plural: Ninja <br><button class="likes">37 likes</button></p>
+                            </h1>
+                        </div>
+                        <div class="location">
+                            
+                        </div>
+                        <h3>
+                            A<a href="#">programmer</a>who breaks<br>
+                            dowm problems wiht<a href="#">zen</a>-like focus
+                            
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dereColu">
+                <div class="request">
+                    <div class="cuad3">
+                        <div class="col">
+                            <h1>Dojonary is <br>
+                                <p>defined by YOU <br>
+                                <button class="add" onclick="Remover(this)">Add Definition</button></p>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="ninja.js"></script>
+    </body>
+</html>
